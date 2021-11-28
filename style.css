@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700&family=Outfit:wght@100;200;400;600;900&family=Raleway:wght@400;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(229, 57%, 11%);
+    font-family: 'Raleway', sans-serif;
+display: flex;
+height: 100vh;
+
+font-size: 14px
+}
+.image{
+   position: absolute;
+    width: 100%;
+align-self: flex-end;
+    
+
+}
+
+main{
+    display: flex;
+ top: 40%;
+ left: 50%;
+
+   width:
+   700px;
+   height: 150px;
+  
+  transform: translate(-50%,-50%);
+ position: absolute;
+
+}
+  
+.sectiontwo > .divone {
+    width: 100%;
+    height: 12px;
+    border-radius: 7px;
+
+    background-color: hsl(229, 57%, 11%);
+    margin: 10px 0 5px;
+    border: 2px solid  hsl(229, 57%, 11%);
+    
+  }
+.divtwo  {
+ 
+    width: 70%;
+    height: 100%;
+    border-radius: 7px;
+    background-image: linear-gradient(
+      to right,
+      hsl(6, 100%, 80%),
+      hsl(335, 100%, 65%)
+    );
+position: relative;
+  
+  }
+  .divtwo::after{
+    content: "";
+    height: 8px;
+    position: absolute;
+ left: 98%;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+   
+  }
+ .imageicon div {
+   background-color: hsl(229, 57%, 11%);
+   width: 40px;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-left: 15px;
+   border-radius: 5px;
+ 
+   
+ }
+ 
+ .imageicon  {
+   margin-top: 15px;
+   display: flex;
+
+ }
+ .sectionone {
+   background-color: hsl(228, 56%, 26%);
+   width: 40%;
+   border-radius: 10px 40% 10px 10px ;
+   padding: 20px;
+ }
+ .sectiontwo{
+  background-color: hsl(228, 56%, 26%);
+ margin-left: 20px;
+ height: 110px;
+ align-self: flex-end;
+ width:calc( 700px - 40% ) ;
+ border-radius: 10px;
+ padding: 20px;
+
+ 
+ 
+
+ }
+ .sectiontwo > p:first-child{
+   color: hsl(229, 7%, 55%);
+ }
+ .sectiontwo > p:first-child > strong {
+color:hsl(243, 100%, 93%) ;
+ }
+ 
+ nav{
+   display: flex;
+   color:hsl(243, 100%, 93%) ;
+   font-weight: 700;
+ justify-content: space-between;
+ }
+ 
+ .white{
+   position: absolute;
+   top: 10%;
+  left: 82%;
+  display: flex;
+  background-color: hsl(243, 100%, 93%);
+padding: 10px;
+align-items: center;
+border-radius: 5px;
+ }
+ .white h1 {
+   font-size: 25px;
+
+ }
+ .white p {
+   font-size: 10px;
+   margin-left: 5px;
+ } 
+ @media only screen and (max-width: 375px) {
+ 
+body{
+  width: 375px;
+  height: 500px;
+  background-image: url(./images/bg-mobile.png);
+ 
+}
+.image{
+  display: none;
+}
+main{
+  display: flex;
+width: 350px;
+height: 200px;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.white{
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  width: 145px;
+  height: 60px;
+  display: flex;
+  background-color: hsl(243, 100%, 93%);
+  padding: 30px;
+  align-items: center;
+  border-radius: 5px;
+
+}
+
+
+
+.sectionone {
+  background-color: hsl(228, 56%, 26%);
+width: 80%;
+  border-radius: 10px 40% 10px 10px ;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.sectiontwo{
+  background-color: hsl(228, 56%, 26%);
+ margin-left: 0;
+ position: relative;
+
+ border-radius: 10px;
+ padding: 20px;
+
+ width: 80%;
+ 
+
+ }
+
+ }
